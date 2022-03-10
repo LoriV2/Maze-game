@@ -32,6 +32,9 @@ Public Class Form1
             points -= 1
             hh += 1
         End If
+
+
+
     End Sub
 
 
@@ -53,6 +56,7 @@ Public Class Form1
             Timer1.Enabled = True
             Label1.Text = "Player's name"
             Form2.player_name.Text = TextBox1.Text
+            ProgressBar80.Left += 4
         End If
 
     End Sub

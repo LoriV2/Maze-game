@@ -89,7 +89,6 @@ Partial Class Form1
         Me.win_btn = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.ProgressBar63 = New System.Windows.Forms.ProgressBar()
-        Me.FileSystemWatcher1 = New System.IO.FileSystemWatcher()
         Me.ProgressBar64 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar65 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar66 = New System.Windows.Forms.ProgressBar()
@@ -119,7 +118,7 @@ Partial Class Form1
         Me.ProgressBar90 = New System.Windows.Forms.ProgressBar()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ProgressBar91 = New System.Windows.Forms.ProgressBar()
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -145,7 +144,8 @@ Partial Class Form1
         'ProgressBar3
         '
         Me.ProgressBar3.AccessibleName = "a"
-        Me.ProgressBar3.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar3.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar3.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar3.Location = New System.Drawing.Point(12, 255)
         Me.ProgressBar3.Name = "ProgressBar3"
         Me.ProgressBar3.Size = New System.Drawing.Size(716, 11)
@@ -154,7 +154,8 @@ Partial Class Form1
         'ProgressBar4
         '
         Me.ProgressBar4.AccessibleName = "a"
-        Me.ProgressBar4.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar4.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar4.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar4.Location = New System.Drawing.Point(91, 218)
         Me.ProgressBar4.Name = "ProgressBar4"
         Me.ProgressBar4.Size = New System.Drawing.Size(716, 11)
@@ -163,7 +164,8 @@ Partial Class Form1
         'ProgressBar5
         '
         Me.ProgressBar5.AccessibleName = "a"
-        Me.ProgressBar5.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar5.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar5.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar5.Location = New System.Drawing.Point(75, 110)
         Me.ProgressBar5.Name = "ProgressBar5"
         Me.ProgressBar5.Size = New System.Drawing.Size(720, 10)
@@ -172,7 +174,8 @@ Partial Class Form1
         'ProgressBar6
         '
         Me.ProgressBar6.AccessibleName = "a"
-        Me.ProgressBar6.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar6.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar6.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar6.Location = New System.Drawing.Point(24, 159)
         Me.ProgressBar6.Name = "ProgressBar6"
         Me.ProgressBar6.Size = New System.Drawing.Size(716, 19)
@@ -190,7 +193,8 @@ Partial Class Form1
         'ProgressBar8
         '
         Me.ProgressBar8.AccessibleName = "a"
-        Me.ProgressBar8.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar8.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar8.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar8.Location = New System.Drawing.Point(42, 89)
         Me.ProgressBar8.Name = "ProgressBar8"
         Me.ProgressBar8.Size = New System.Drawing.Size(746, 10)
@@ -199,7 +203,8 @@ Partial Class Form1
         'ProgressBar9
         '
         Me.ProgressBar9.AccessibleName = "a"
-        Me.ProgressBar9.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar9.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar9.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar9.Location = New System.Drawing.Point(24, 110)
         Me.ProgressBar9.Name = "ProgressBar9"
         Me.ProgressBar9.Size = New System.Drawing.Size(22, 119)
@@ -208,7 +213,8 @@ Partial Class Form1
         'ProgressBar10
         '
         Me.ProgressBar10.AccessibleName = "a"
-        Me.ProgressBar10.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar10.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar10.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar10.Location = New System.Drawing.Point(463, 272)
         Me.ProgressBar10.Name = "ProgressBar10"
         Me.ProgressBar10.Size = New System.Drawing.Size(43, 33)
@@ -217,7 +223,8 @@ Partial Class Form1
         'ProgressBar11
         '
         Me.ProgressBar11.AccessibleName = "a"
-        Me.ProgressBar11.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar11.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar11.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar11.Location = New System.Drawing.Point(402, 282)
         Me.ProgressBar11.Name = "ProgressBar11"
         Me.ProgressBar11.Size = New System.Drawing.Size(43, 33)
@@ -226,7 +233,8 @@ Partial Class Form1
         'ProgressBar12
         '
         Me.ProgressBar12.AccessibleName = "a"
-        Me.ProgressBar12.BackColor = System.Drawing.SystemColors.HotTrack
+        Me.ProgressBar12.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar12.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar12.Location = New System.Drawing.Point(336, 272)
         Me.ProgressBar12.Name = "ProgressBar12"
         Me.ProgressBar12.Size = New System.Drawing.Size(43, 33)
@@ -235,7 +243,8 @@ Partial Class Form1
         'ProgressBar13
         '
         Me.ProgressBar13.AccessibleName = "a"
-        Me.ProgressBar13.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar13.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar13.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar13.Location = New System.Drawing.Point(268, 282)
         Me.ProgressBar13.Name = "ProgressBar13"
         Me.ProgressBar13.Size = New System.Drawing.Size(43, 33)
@@ -244,7 +253,8 @@ Partial Class Form1
         'ProgressBar14
         '
         Me.ProgressBar14.AccessibleName = "a"
-        Me.ProgressBar14.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar14.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar14.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar14.Location = New System.Drawing.Point(207, 272)
         Me.ProgressBar14.Name = "ProgressBar14"
         Me.ProgressBar14.Size = New System.Drawing.Size(43, 33)
@@ -253,7 +263,8 @@ Partial Class Form1
         'ProgressBar15
         '
         Me.ProgressBar15.AccessibleName = "a"
-        Me.ProgressBar15.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar15.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar15.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar15.Location = New System.Drawing.Point(145, 282)
         Me.ProgressBar15.Name = "ProgressBar15"
         Me.ProgressBar15.Size = New System.Drawing.Size(43, 33)
@@ -262,7 +273,8 @@ Partial Class Form1
         'ProgressBar16
         '
         Me.ProgressBar16.AccessibleName = "a"
-        Me.ProgressBar16.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar16.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar16.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar16.Location = New System.Drawing.Point(91, 272)
         Me.ProgressBar16.Name = "ProgressBar16"
         Me.ProgressBar16.Size = New System.Drawing.Size(43, 33)
@@ -271,7 +283,8 @@ Partial Class Form1
         'ProgressBar17
         '
         Me.ProgressBar17.AccessibleName = "a"
-        Me.ProgressBar17.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar17.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar17.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar17.Location = New System.Drawing.Point(42, 282)
         Me.ProgressBar17.Name = "ProgressBar17"
         Me.ProgressBar17.Size = New System.Drawing.Size(43, 33)
@@ -280,7 +293,8 @@ Partial Class Form1
         'ProgressBar18
         '
         Me.ProgressBar18.AccessibleName = "a"
-        Me.ProgressBar18.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar18.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar18.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar18.Location = New System.Drawing.Point(379, 209)
         Me.ProgressBar18.Name = "ProgressBar18"
         Me.ProgressBar18.Size = New System.Drawing.Size(43, 33)
@@ -289,7 +303,8 @@ Partial Class Form1
         'ProgressBar19
         '
         Me.ProgressBar19.AccessibleName = "a"
-        Me.ProgressBar19.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar19.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar19.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar19.Location = New System.Drawing.Point(525, 282)
         Me.ProgressBar19.Name = "ProgressBar19"
         Me.ProgressBar19.Size = New System.Drawing.Size(43, 33)
@@ -298,7 +313,8 @@ Partial Class Form1
         'ProgressBar20
         '
         Me.ProgressBar20.AccessibleName = "a"
-        Me.ProgressBar20.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar20.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar20.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar20.Location = New System.Drawing.Point(591, 272)
         Me.ProgressBar20.Name = "ProgressBar20"
         Me.ProgressBar20.Size = New System.Drawing.Size(43, 33)
@@ -307,7 +323,8 @@ Partial Class Form1
         'ProgressBar21
         '
         Me.ProgressBar21.AccessibleName = "a"
-        Me.ProgressBar21.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar21.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar21.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar21.Location = New System.Drawing.Point(652, 282)
         Me.ProgressBar21.Name = "ProgressBar21"
         Me.ProgressBar21.Size = New System.Drawing.Size(43, 33)
@@ -316,7 +333,8 @@ Partial Class Form1
         'ProgressBar22
         '
         Me.ProgressBar22.AccessibleName = "a"
-        Me.ProgressBar22.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar22.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar22.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar22.Location = New System.Drawing.Point(710, 272)
         Me.ProgressBar22.Name = "ProgressBar22"
         Me.ProgressBar22.Size = New System.Drawing.Size(43, 33)
@@ -325,7 +343,7 @@ Partial Class Form1
         'ProgressBar23
         '
         Me.ProgressBar23.AccessibleName = "a"
-        Me.ProgressBar23.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar23.BackColor = System.Drawing.Color.Red
         Me.ProgressBar23.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar23.Location = New System.Drawing.Point(424, 326)
         Me.ProgressBar23.Name = "ProgressBar23"
@@ -336,7 +354,7 @@ Partial Class Form1
         'ProgressBar24
         '
         Me.ProgressBar24.AccessibleName = "a"
-        Me.ProgressBar24.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar24.BackColor = System.Drawing.Color.Red
         Me.ProgressBar24.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar24.Location = New System.Drawing.Point(453, 342)
         Me.ProgressBar24.Name = "ProgressBar24"
@@ -347,7 +365,7 @@ Partial Class Form1
         'ProgressBar25
         '
         Me.ProgressBar25.AccessibleName = "a"
-        Me.ProgressBar25.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar25.BackColor = System.Drawing.Color.Red
         Me.ProgressBar25.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar25.Location = New System.Drawing.Point(475, 326)
         Me.ProgressBar25.Name = "ProgressBar25"
@@ -358,7 +376,7 @@ Partial Class Form1
         'ProgressBar26
         '
         Me.ProgressBar26.AccessibleName = "a"
-        Me.ProgressBar26.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar26.BackColor = System.Drawing.Color.Red
         Me.ProgressBar26.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar26.Location = New System.Drawing.Point(510, 342)
         Me.ProgressBar26.Name = "ProgressBar26"
@@ -369,7 +387,7 @@ Partial Class Form1
         'ProgressBar27
         '
         Me.ProgressBar27.AccessibleName = "a"
-        Me.ProgressBar27.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar27.BackColor = System.Drawing.Color.Red
         Me.ProgressBar27.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar27.Location = New System.Drawing.Point(537, 326)
         Me.ProgressBar27.Name = "ProgressBar27"
@@ -380,7 +398,7 @@ Partial Class Form1
         'ProgressBar28
         '
         Me.ProgressBar28.AccessibleName = "a"
-        Me.ProgressBar28.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar28.BackColor = System.Drawing.Color.Red
         Me.ProgressBar28.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar28.Location = New System.Drawing.Point(570, 342)
         Me.ProgressBar28.Name = "ProgressBar28"
@@ -391,7 +409,7 @@ Partial Class Form1
         'ProgressBar29
         '
         Me.ProgressBar29.AccessibleName = "a"
-        Me.ProgressBar29.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar29.BackColor = System.Drawing.Color.Red
         Me.ProgressBar29.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar29.Location = New System.Drawing.Point(591, 326)
         Me.ProgressBar29.Name = "ProgressBar29"
@@ -402,7 +420,7 @@ Partial Class Form1
         'ProgressBar30
         '
         Me.ProgressBar30.AccessibleName = "a"
-        Me.ProgressBar30.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar30.BackColor = System.Drawing.Color.Red
         Me.ProgressBar30.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar30.Location = New System.Drawing.Point(613, 342)
         Me.ProgressBar30.Name = "ProgressBar30"
@@ -413,7 +431,7 @@ Partial Class Form1
         'ProgressBar31
         '
         Me.ProgressBar31.AccessibleName = "a"
-        Me.ProgressBar31.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar31.BackColor = System.Drawing.Color.Red
         Me.ProgressBar31.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar31.Location = New System.Drawing.Point(633, 326)
         Me.ProgressBar31.Name = "ProgressBar31"
@@ -424,7 +442,7 @@ Partial Class Form1
         'ProgressBar32
         '
         Me.ProgressBar32.AccessibleName = "a"
-        Me.ProgressBar32.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar32.BackColor = System.Drawing.Color.Red
         Me.ProgressBar32.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar32.Location = New System.Drawing.Point(652, 342)
         Me.ProgressBar32.Name = "ProgressBar32"
@@ -435,7 +453,7 @@ Partial Class Form1
         'ProgressBar33
         '
         Me.ProgressBar33.AccessibleName = "a"
-        Me.ProgressBar33.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar33.BackColor = System.Drawing.Color.Red
         Me.ProgressBar33.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar33.Location = New System.Drawing.Point(668, 342)
         Me.ProgressBar33.Name = "ProgressBar33"
@@ -446,7 +464,7 @@ Partial Class Form1
         'ProgressBar34
         '
         Me.ProgressBar34.AccessibleName = "a"
-        Me.ProgressBar34.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar34.BackColor = System.Drawing.Color.Red
         Me.ProgressBar34.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar34.Location = New System.Drawing.Point(685, 326)
         Me.ProgressBar34.Name = "ProgressBar34"
@@ -457,7 +475,7 @@ Partial Class Form1
         'ProgressBar35
         '
         Me.ProgressBar35.AccessibleName = "a"
-        Me.ProgressBar35.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar35.BackColor = System.Drawing.Color.Red
         Me.ProgressBar35.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar35.Location = New System.Drawing.Point(710, 347)
         Me.ProgressBar35.Name = "ProgressBar35"
@@ -467,7 +485,7 @@ Partial Class Form1
         'ProgressBar36
         '
         Me.ProgressBar36.AccessibleName = "a"
-        Me.ProgressBar36.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar36.BackColor = System.Drawing.Color.Red
         Me.ProgressBar36.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar36.Location = New System.Drawing.Point(402, 342)
         Me.ProgressBar36.Minimum = 1
@@ -480,7 +498,7 @@ Partial Class Form1
         'ProgressBar37
         '
         Me.ProgressBar37.AccessibleName = "a"
-        Me.ProgressBar37.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar37.BackColor = System.Drawing.Color.Red
         Me.ProgressBar37.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar37.Location = New System.Drawing.Point(379, 326)
         Me.ProgressBar37.Name = "ProgressBar37"
@@ -491,7 +509,7 @@ Partial Class Form1
         'ProgressBar38
         '
         Me.ProgressBar38.AccessibleName = "a"
-        Me.ProgressBar38.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar38.BackColor = System.Drawing.Color.Red
         Me.ProgressBar38.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar38.Location = New System.Drawing.Point(356, 342)
         Me.ProgressBar38.Name = "ProgressBar38"
@@ -502,7 +520,7 @@ Partial Class Form1
         'ProgressBar39
         '
         Me.ProgressBar39.AccessibleName = "a"
-        Me.ProgressBar39.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar39.BackColor = System.Drawing.Color.Red
         Me.ProgressBar39.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar39.Location = New System.Drawing.Point(336, 326)
         Me.ProgressBar39.Name = "ProgressBar39"
@@ -513,7 +531,7 @@ Partial Class Form1
         'ProgressBar40
         '
         Me.ProgressBar40.AccessibleName = "a"
-        Me.ProgressBar40.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar40.BackColor = System.Drawing.Color.Red
         Me.ProgressBar40.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar40.Location = New System.Drawing.Point(314, 342)
         Me.ProgressBar40.Name = "ProgressBar40"
@@ -524,7 +542,7 @@ Partial Class Form1
         'ProgressBar41
         '
         Me.ProgressBar41.AccessibleName = "a"
-        Me.ProgressBar41.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar41.BackColor = System.Drawing.Color.Red
         Me.ProgressBar41.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar41.Location = New System.Drawing.Point(290, 321)
         Me.ProgressBar41.Name = "ProgressBar41"
@@ -535,7 +553,7 @@ Partial Class Form1
         'ProgressBar42
         '
         Me.ProgressBar42.AccessibleName = "a"
-        Me.ProgressBar42.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar42.BackColor = System.Drawing.Color.Red
         Me.ProgressBar42.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar42.Location = New System.Drawing.Point(268, 342)
         Me.ProgressBar42.Name = "ProgressBar42"
@@ -546,7 +564,7 @@ Partial Class Form1
         'ProgressBar43
         '
         Me.ProgressBar43.AccessibleName = "a"
-        Me.ProgressBar43.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar43.BackColor = System.Drawing.Color.Red
         Me.ProgressBar43.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar43.Location = New System.Drawing.Point(249, 326)
         Me.ProgressBar43.Name = "ProgressBar43"
@@ -557,7 +575,7 @@ Partial Class Form1
         'ProgressBar44
         '
         Me.ProgressBar44.AccessibleName = "a"
-        Me.ProgressBar44.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar44.BackColor = System.Drawing.Color.Red
         Me.ProgressBar44.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar44.Location = New System.Drawing.Point(230, 342)
         Me.ProgressBar44.Name = "ProgressBar44"
@@ -568,7 +586,7 @@ Partial Class Form1
         'ProgressBar45
         '
         Me.ProgressBar45.AccessibleName = "a"
-        Me.ProgressBar45.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar45.BackColor = System.Drawing.Color.Red
         Me.ProgressBar45.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar45.Location = New System.Drawing.Point(207, 326)
         Me.ProgressBar45.Name = "ProgressBar45"
@@ -579,7 +597,7 @@ Partial Class Form1
         'ProgressBar46
         '
         Me.ProgressBar46.AccessibleName = "a"
-        Me.ProgressBar46.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar46.BackColor = System.Drawing.Color.Red
         Me.ProgressBar46.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar46.Location = New System.Drawing.Point(191, 342)
         Me.ProgressBar46.Name = "ProgressBar46"
@@ -590,7 +608,7 @@ Partial Class Form1
         'ProgressBar47
         '
         Me.ProgressBar47.AccessibleName = "a"
-        Me.ProgressBar47.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar47.BackColor = System.Drawing.Color.Red
         Me.ProgressBar47.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar47.Location = New System.Drawing.Point(169, 326)
         Me.ProgressBar47.Name = "ProgressBar47"
@@ -601,7 +619,7 @@ Partial Class Form1
         'ProgressBar48
         '
         Me.ProgressBar48.AccessibleName = "a"
-        Me.ProgressBar48.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar48.BackColor = System.Drawing.Color.Red
         Me.ProgressBar48.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar48.Location = New System.Drawing.Point(145, 342)
         Me.ProgressBar48.Name = "ProgressBar48"
@@ -612,7 +630,7 @@ Partial Class Form1
         'ProgressBar49
         '
         Me.ProgressBar49.AccessibleName = "a"
-        Me.ProgressBar49.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar49.BackColor = System.Drawing.Color.Red
         Me.ProgressBar49.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar49.Location = New System.Drawing.Point(124, 326)
         Me.ProgressBar49.Name = "ProgressBar49"
@@ -623,7 +641,7 @@ Partial Class Form1
         'ProgressBar50
         '
         Me.ProgressBar50.AccessibleName = "a"
-        Me.ProgressBar50.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar50.BackColor = System.Drawing.Color.Red
         Me.ProgressBar50.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar50.Location = New System.Drawing.Point(104, 342)
         Me.ProgressBar50.Name = "ProgressBar50"
@@ -634,7 +652,7 @@ Partial Class Form1
         'ProgressBar51
         '
         Me.ProgressBar51.AccessibleName = "a"
-        Me.ProgressBar51.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar51.BackColor = System.Drawing.Color.Red
         Me.ProgressBar51.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar51.Location = New System.Drawing.Point(75, 326)
         Me.ProgressBar51.Name = "ProgressBar51"
@@ -645,7 +663,7 @@ Partial Class Form1
         'ProgressBar52
         '
         Me.ProgressBar52.AccessibleName = "a"
-        Me.ProgressBar52.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar52.BackColor = System.Drawing.Color.Red
         Me.ProgressBar52.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar52.Location = New System.Drawing.Point(42, 342)
         Me.ProgressBar52.Name = "ProgressBar52"
@@ -656,7 +674,7 @@ Partial Class Form1
         'ProgressBar53
         '
         Me.ProgressBar53.AccessibleName = "a"
-        Me.ProgressBar53.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar53.BackColor = System.Drawing.Color.Red
         Me.ProgressBar53.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar53.Location = New System.Drawing.Point(24, 326)
         Me.ProgressBar53.Name = "ProgressBar53"
@@ -666,7 +684,7 @@ Partial Class Form1
         '
         'ProgressBar54
         '
-        Me.ProgressBar54.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar54.BackColor = System.Drawing.Color.Red
         Me.ProgressBar54.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar54.Location = New System.Drawing.Point(-5, 342)
         Me.ProgressBar54.Name = "ProgressBar54"
@@ -677,7 +695,7 @@ Partial Class Form1
         'ProgressBar55
         '
         Me.ProgressBar55.AccessibleName = "a"
-        Me.ProgressBar55.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar55.BackColor = System.Drawing.Color.Red
         Me.ProgressBar55.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar55.Location = New System.Drawing.Point(435, 242)
         Me.ProgressBar55.Name = "ProgressBar55"
@@ -687,7 +705,7 @@ Partial Class Form1
         'ProgressBar56
         '
         Me.ProgressBar56.AccessibleName = "a"
-        Me.ProgressBar56.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar56.BackColor = System.Drawing.Color.Red
         Me.ProgressBar56.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar56.Location = New System.Drawing.Point(463, 218)
         Me.ProgressBar56.Name = "ProgressBar56"
@@ -697,7 +715,7 @@ Partial Class Form1
         'ProgressBar57
         '
         Me.ProgressBar57.AccessibleName = "a"
-        Me.ProgressBar57.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar57.BackColor = System.Drawing.Color.Silver
         Me.ProgressBar57.Location = New System.Drawing.Point(504, 235)
         Me.ProgressBar57.Name = "ProgressBar57"
         Me.ProgressBar57.Size = New System.Drawing.Size(43, 31)
@@ -706,7 +724,7 @@ Partial Class Form1
         'ProgressBar58
         '
         Me.ProgressBar58.AccessibleName = "a"
-        Me.ProgressBar58.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar58.BackColor = System.Drawing.Color.Red
         Me.ProgressBar58.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar58.Location = New System.Drawing.Point(336, 242)
         Me.ProgressBar58.Name = "ProgressBar58"
@@ -716,7 +734,7 @@ Partial Class Form1
         'ProgressBar59
         '
         Me.ProgressBar59.AccessibleName = "a"
-        Me.ProgressBar59.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar59.BackColor = System.Drawing.Color.Red
         Me.ProgressBar59.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar59.Location = New System.Drawing.Point(356, 218)
         Me.ProgressBar59.Name = "ProgressBar59"
@@ -726,7 +744,7 @@ Partial Class Form1
         'ProgressBar60
         '
         Me.ProgressBar60.AccessibleName = "a"
-        Me.ProgressBar60.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar60.BackColor = System.Drawing.Color.Red
         Me.ProgressBar60.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar60.Location = New System.Drawing.Point(301, 242)
         Me.ProgressBar60.Name = "ProgressBar60"
@@ -736,7 +754,7 @@ Partial Class Form1
         'ProgressBar61
         '
         Me.ProgressBar61.AccessibleName = "a"
-        Me.ProgressBar61.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar61.BackColor = System.Drawing.Color.Red
         Me.ProgressBar61.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar61.Location = New System.Drawing.Point(320, 218)
         Me.ProgressBar61.Name = "ProgressBar61"
@@ -746,7 +764,7 @@ Partial Class Form1
         'ProgressBar62
         '
         Me.ProgressBar62.AccessibleName = "a"
-        Me.ProgressBar62.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar62.BackColor = System.Drawing.Color.Silver
         Me.ProgressBar62.Location = New System.Drawing.Point(12, 176)
         Me.ProgressBar62.Name = "ProgressBar62"
         Me.ProgressBar62.Size = New System.Drawing.Size(34, 24)
@@ -780,21 +798,18 @@ Partial Class Form1
         'ProgressBar63
         '
         Me.ProgressBar63.AccessibleName = "a"
-        Me.ProgressBar63.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ProgressBar63.Location = New System.Drawing.Point(161, 12)
+        Me.ProgressBar63.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar63.ForeColor = System.Drawing.Color.Red
+        Me.ProgressBar63.Location = New System.Drawing.Point(238, 4)
         Me.ProgressBar63.Name = "ProgressBar63"
         Me.ProgressBar63.Size = New System.Drawing.Size(27, 23)
         Me.ProgressBar63.TabIndex = 63
         '
-        'FileSystemWatcher1
-        '
-        Me.FileSystemWatcher1.EnableRaisingEvents = True
-        Me.FileSystemWatcher1.SynchronizingObject = Me
-        '
         'ProgressBar64
         '
         Me.ProgressBar64.AccessibleName = "a"
-        Me.ProgressBar64.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar64.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar64.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar64.Location = New System.Drawing.Point(674, 54)
         Me.ProgressBar64.Name = "ProgressBar64"
         Me.ProgressBar64.Size = New System.Drawing.Size(21, 29)
@@ -803,7 +818,8 @@ Partial Class Form1
         'ProgressBar65
         '
         Me.ProgressBar65.AccessibleName = "a"
-        Me.ProgressBar65.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar65.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar65.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar65.Location = New System.Drawing.Point(0, 24)
         Me.ProgressBar65.Name = "ProgressBar65"
         Me.ProgressBar65.Size = New System.Drawing.Size(22, 80)
@@ -812,7 +828,8 @@ Partial Class Form1
         'ProgressBar66
         '
         Me.ProgressBar66.AccessibleName = "a"
-        Me.ProgressBar66.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar66.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar66.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar66.Location = New System.Drawing.Point(344, 24)
         Me.ProgressBar66.Name = "ProgressBar66"
         Me.ProgressBar66.Size = New System.Drawing.Size(20, 59)
@@ -821,7 +838,8 @@ Partial Class Form1
         'ProgressBar67
         '
         Me.ProgressBar67.AccessibleName = "a"
-        Me.ProgressBar67.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar67.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar67.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar67.Location = New System.Drawing.Point(344, 41)
         Me.ProgressBar67.Name = "ProgressBar67"
         Me.ProgressBar67.Size = New System.Drawing.Size(111, 13)
@@ -830,7 +848,8 @@ Partial Class Form1
         'ProgressBar68
         '
         Me.ProgressBar68.AccessibleName = "a"
-        Me.ProgressBar68.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar68.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar68.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar68.Location = New System.Drawing.Point(435, 24)
         Me.ProgressBar68.Name = "ProgressBar68"
         Me.ProgressBar68.Size = New System.Drawing.Size(28, 59)
@@ -839,7 +858,8 @@ Partial Class Form1
         'ProgressBar69
         '
         Me.ProgressBar69.AccessibleName = "a"
-        Me.ProgressBar69.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar69.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar69.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar69.Location = New System.Drawing.Point(770, 54)
         Me.ProgressBar69.Name = "ProgressBar69"
         Me.ProgressBar69.Size = New System.Drawing.Size(37, 29)
@@ -848,7 +868,8 @@ Partial Class Form1
         'ProgressBar70
         '
         Me.ProgressBar70.AccessibleName = "a"
-        Me.ProgressBar70.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar70.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar70.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar70.Location = New System.Drawing.Point(732, 70)
         Me.ProgressBar70.Name = "ProgressBar70"
         Me.ProgressBar70.Size = New System.Drawing.Size(21, 29)
@@ -857,7 +878,8 @@ Partial Class Form1
         'ProgressBar71
         '
         Me.ProgressBar71.AccessibleName = "a"
-        Me.ProgressBar71.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar71.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar71.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar71.Location = New System.Drawing.Point(743, 35)
         Me.ProgressBar71.Name = "ProgressBar71"
         Me.ProgressBar71.Size = New System.Drawing.Size(27, 29)
@@ -866,7 +888,8 @@ Partial Class Form1
         'ProgressBar72
         '
         Me.ProgressBar72.AccessibleName = "a"
-        Me.ProgressBar72.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar72.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar72.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar72.Location = New System.Drawing.Point(732, 0)
         Me.ProgressBar72.Name = "ProgressBar72"
         Me.ProgressBar72.Size = New System.Drawing.Size(38, 29)
@@ -875,7 +898,8 @@ Partial Class Form1
         'ProgressBar73
         '
         Me.ProgressBar73.AccessibleName = "a"
-        Me.ProgressBar73.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar73.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar73.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar73.Location = New System.Drawing.Point(786, 0)
         Me.ProgressBar73.Name = "ProgressBar73"
         Me.ProgressBar73.Size = New System.Drawing.Size(21, 29)
@@ -884,7 +908,8 @@ Partial Class Form1
         'ProgressBar74
         '
         Me.ProgressBar74.AccessibleName = "a"
-        Me.ProgressBar74.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar74.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar74.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar74.Location = New System.Drawing.Point(776, 35)
         Me.ProgressBar74.Name = "ProgressBar74"
         Me.ProgressBar74.Size = New System.Drawing.Size(10, 10)
@@ -893,7 +918,8 @@ Partial Class Form1
         'ProgressBar75
         '
         Me.ProgressBar75.AccessibleName = "a"
-        Me.ProgressBar75.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar75.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar75.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar75.Location = New System.Drawing.Point(710, 12)
         Me.ProgressBar75.Name = "ProgressBar75"
         Me.ProgressBar75.Size = New System.Drawing.Size(10, 63)
@@ -902,7 +928,8 @@ Partial Class Form1
         'ProgressBar76
         '
         Me.ProgressBar76.AccessibleName = "a"
-        Me.ProgressBar76.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar76.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar76.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar76.Location = New System.Drawing.Point(692, 54)
         Me.ProgressBar76.Name = "ProgressBar76"
         Me.ProgressBar76.Size = New System.Drawing.Size(45, 10)
@@ -911,7 +938,8 @@ Partial Class Form1
         'ProgressBar77
         '
         Me.ProgressBar77.AccessibleName = "a"
-        Me.ProgressBar77.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar77.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar77.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar77.Location = New System.Drawing.Point(647, 70)
         Me.ProgressBar77.Name = "ProgressBar77"
         Me.ProgressBar77.Size = New System.Drawing.Size(21, 29)
@@ -920,7 +948,8 @@ Partial Class Form1
         'ProgressBar78
         '
         Me.ProgressBar78.AccessibleName = "a"
-        Me.ProgressBar78.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar78.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar78.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar78.Location = New System.Drawing.Point(453, 35)
         Me.ProgressBar78.Name = "ProgressBar78"
         Me.ProgressBar78.Size = New System.Drawing.Size(225, 29)
@@ -929,8 +958,9 @@ Partial Class Form1
         'ProgressBar80
         '
         Me.ProgressBar80.AccessibleName = "a"
-        Me.ProgressBar80.BackColor = System.Drawing.SystemColors.Highlight
-        Me.ProgressBar80.Location = New System.Drawing.Point(268, 54)
+        Me.ProgressBar80.BackColor = System.Drawing.Color.Silver
+        Me.ProgressBar80.ForeColor = System.Drawing.Color.Red
+        Me.ProgressBar80.Location = New System.Drawing.Point(25, 54)
         Me.ProgressBar80.Name = "ProgressBar80"
         Me.ProgressBar80.Size = New System.Drawing.Size(21, 29)
         Me.ProgressBar80.TabIndex = 80
@@ -938,7 +968,8 @@ Partial Class Form1
         'ProgressBar79
         '
         Me.ProgressBar79.AccessibleName = "a"
-        Me.ProgressBar79.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar79.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar79.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar79.Location = New System.Drawing.Point(613, 46)
         Me.ProgressBar79.Name = "ProgressBar79"
         Me.ProgressBar79.Size = New System.Drawing.Size(21, 29)
@@ -947,7 +978,8 @@ Partial Class Form1
         'ProgressBar81
         '
         Me.ProgressBar81.AccessibleName = "a"
-        Me.ProgressBar81.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar81.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar81.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar81.Location = New System.Drawing.Point(580, 70)
         Me.ProgressBar81.Name = "ProgressBar81"
         Me.ProgressBar81.Size = New System.Drawing.Size(21, 29)
@@ -956,7 +988,8 @@ Partial Class Form1
         'ProgressBar82
         '
         Me.ProgressBar82.AccessibleName = "a"
-        Me.ProgressBar82.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar82.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar82.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar82.Location = New System.Drawing.Point(553, 46)
         Me.ProgressBar82.Name = "ProgressBar82"
         Me.ProgressBar82.Size = New System.Drawing.Size(21, 29)
@@ -965,7 +998,8 @@ Partial Class Form1
         'ProgressBar83
         '
         Me.ProgressBar83.AccessibleName = "a"
-        Me.ProgressBar83.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar83.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar83.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar83.Location = New System.Drawing.Point(525, 70)
         Me.ProgressBar83.Name = "ProgressBar83"
         Me.ProgressBar83.Size = New System.Drawing.Size(21, 29)
@@ -974,7 +1008,8 @@ Partial Class Form1
         'ProgressBar84
         '
         Me.ProgressBar84.AccessibleName = "a"
-        Me.ProgressBar84.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar84.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar84.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar84.Location = New System.Drawing.Point(498, 54)
         Me.ProgressBar84.Name = "ProgressBar84"
         Me.ProgressBar84.Size = New System.Drawing.Size(21, 29)
@@ -983,7 +1018,8 @@ Partial Class Form1
         'ProgressBar85
         '
         Me.ProgressBar85.AccessibleName = "a"
-        Me.ProgressBar85.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar85.BackColor = System.Drawing.Color.Red
+        Me.ProgressBar85.ForeColor = System.Drawing.Color.Red
         Me.ProgressBar85.Location = New System.Drawing.Point(469, 75)
         Me.ProgressBar85.Name = "ProgressBar85"
         Me.ProgressBar85.Size = New System.Drawing.Size(21, 29)
@@ -992,7 +1028,8 @@ Partial Class Form1
         'ProgressBar86
         '
         Me.ProgressBar86.AccessibleName = "a"
-        Me.ProgressBar86.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar86.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar86.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar86.Location = New System.Drawing.Point(685, -9)
         Me.ProgressBar86.Name = "ProgressBar86"
         Me.ProgressBar86.Size = New System.Drawing.Size(10, 56)
@@ -1001,7 +1038,7 @@ Partial Class Form1
         'ProgressBar87
         '
         Me.ProgressBar87.AccessibleName = "a"
-        Me.ProgressBar87.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar87.BackColor = System.Drawing.Color.Black
         Me.ProgressBar87.Location = New System.Drawing.Point(668, 12)
         Me.ProgressBar87.Name = "ProgressBar87"
         Me.ProgressBar87.Size = New System.Drawing.Size(10, 52)
@@ -1010,7 +1047,8 @@ Partial Class Form1
         'ProgressBar88
         '
         Me.ProgressBar88.AccessibleName = "a"
-        Me.ProgressBar88.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar88.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar88.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar88.Location = New System.Drawing.Point(647, -18)
         Me.ProgressBar88.Name = "ProgressBar88"
         Me.ProgressBar88.Size = New System.Drawing.Size(15, 38)
@@ -1019,7 +1057,8 @@ Partial Class Form1
         'ProgressBar89
         '
         Me.ProgressBar89.AccessibleName = "a"
-        Me.ProgressBar89.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar89.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar89.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar89.Location = New System.Drawing.Point(597, -9)
         Me.ProgressBar89.Name = "ProgressBar89"
         Me.ProgressBar89.Size = New System.Drawing.Size(10, 21)
@@ -1028,7 +1067,8 @@ Partial Class Form1
         'ProgressBar90
         '
         Me.ProgressBar90.AccessibleName = "a"
-        Me.ProgressBar90.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ProgressBar90.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar90.ForeColor = System.Drawing.Color.Black
         Me.ProgressBar90.Location = New System.Drawing.Point(91, 124)
         Me.ProgressBar90.Name = "ProgressBar90"
         Me.ProgressBar90.Size = New System.Drawing.Size(700, 29)
@@ -1050,12 +1090,24 @@ Partial Class Form1
         Me.Label1.TabIndex = 93
         Me.Label1.Text = "Player's Name:"
         '
+        'ProgressBar91
+        '
+        Me.ProgressBar91.AccessibleName = "a"
+        Me.ProgressBar91.BackColor = System.Drawing.Color.Black
+        Me.ProgressBar91.ForeColor = System.Drawing.Color.Black
+        Me.ProgressBar91.Location = New System.Drawing.Point(797, 70)
+        Me.ProgressBar91.Name = "ProgressBar91"
+        Me.ProgressBar91.Size = New System.Drawing.Size(20, 303)
+        Me.ProgressBar91.TabIndex = 94
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(800, 436)
+        Me.Controls.Add(Me.ProgressBar69)
+        Me.Controls.Add(Me.ProgressBar91)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ProgressBar68)
@@ -1082,7 +1134,6 @@ Partial Class Form1
         Me.Controls.Add(Me.ProgressBar72)
         Me.Controls.Add(Me.ProgressBar71)
         Me.Controls.Add(Me.ProgressBar70)
-        Me.Controls.Add(Me.ProgressBar69)
         Me.Controls.Add(Me.ProgressBar67)
         Me.Controls.Add(Me.ProgressBar66)
         Me.Controls.Add(Me.ProgressBar65)
@@ -1152,7 +1203,6 @@ Partial Class Form1
         Me.Controls.Add(Me.ProgressBar35)
         Me.ForeColor = System.Drawing.Color.Red
         Me.Name = "Form1"
-        CType(Me.FileSystemWatcher1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1224,7 +1274,6 @@ Partial Class Form1
     Friend WithEvents win_btn As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents ProgressBar63 As ProgressBar
-    Friend WithEvents FileSystemWatcher1 As IO.FileSystemWatcher
     Friend WithEvents ProgressBar64 As ProgressBar
     Friend WithEvents ProgressBar66 As ProgressBar
     Friend WithEvents ProgressBar65 As ProgressBar
@@ -1254,4 +1303,5 @@ Partial Class Form1
     Friend WithEvents ProgressBar90 As ProgressBar
     Friend WithEvents Label1 As Label
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ProgressBar91 As ProgressBar
 End Class
